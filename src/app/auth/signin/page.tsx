@@ -2,7 +2,6 @@
 
 import type React from "react"
 import Link from "next/link"
-import Image from "next/image"
 import { Mail, Lock, EyeOff } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -58,6 +57,7 @@ export default function SignIn() {
 
 
     }
+    // eslint-disable-next-line
     catch (error: any) {
       toast.error(error.message)
     }
@@ -152,7 +152,7 @@ export default function SignIn() {
               </div> */}
 
               <div className="text-center text-sm">
-                Don't have an account?{" "}
+                Don&apos;t have an account?{" "}
                 <Link href="/auth/signup" className="text-amber-600 hover:text-amber-700 font-medium">
                   Sign up
                 </Link>

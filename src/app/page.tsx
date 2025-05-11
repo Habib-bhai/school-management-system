@@ -168,7 +168,7 @@ export default function LandingPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  <span>Child's profile access</span>
+                  <span>Child&apos;s profile access</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
