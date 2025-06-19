@@ -154,7 +154,7 @@ export default function Dashboard() {
                 </div>
               </div>
               <p className="mt-4 text-center text-sm text-muted-foreground">
-                You're on a 12-day streak! Keep going to beat your record of 15 days.
+                You&apos;re on a 12-day streak! Keep going to beat your record of 15 days.
               </p>
             </CardContent>
           </Card>

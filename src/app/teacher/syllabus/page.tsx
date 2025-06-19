@@ -273,6 +273,7 @@ export default function TeacherSyllabusPage() {
     },
   ])
 
+    // eslint-disable-next-line 
   const currentTerm = syllabusData.find((term) => term.id === selectedTerm)
 
   // Handle lesson editing

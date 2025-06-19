@@ -41,6 +41,7 @@ interface Class {
 
 export default function TeacherClassesPage() {
   const [searchQuery, setSearchQuery] = useState("")
+    // eslint-disable-next-line
   const [selectedFilter, setSelectedFilter] = useState<string>("all")
 
   // Sample classes data

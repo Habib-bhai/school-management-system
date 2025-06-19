@@ -305,7 +305,7 @@ export default function ParentTeachers() {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-bold tracking-tight">Teachers</h1>
-          <p className="text-muted-foreground">Connect with your children's teachers</p>
+          <p className="text-muted-foreground">Connect with your children&apos;s teachers</p>
         </div>
         <div className="flex items-center gap-2">
           <Button variant="outline" onClick={() => setShowChat(true)}>
@@ -590,7 +590,7 @@ export default function ParentTeachers() {
             <>
               <DialogHeader>
                 <DialogTitle>Contact {selectedTeacher.name}</DialogTitle>
-                <DialogDescription>Get in touch with your child's teacher</DialogDescription>
+                <DialogDescription>Get in touch with your child&apos;s teacher</DialogDescription>
               </DialogHeader>
 
               <div className="space-y-4">

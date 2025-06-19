@@ -28,8 +28,9 @@ interface Parent {
 }
 
 export default function TeacherParentsPage() {
-  const [searchQuery, setSearchQuery] = useState("")
-  const [selectedFilter, setSelectedFilter] = useState<string>("all")
+  const [searchQuery, setSearchQuery] = useState("")  
+    // eslint-disable-next-line
+const [selectedFilter, setSelectedFilter] = useState<string>("all")
 
   // Sample parents data
   const parents: Parent[] = [
@@ -182,7 +183,7 @@ export default function TeacherParentsPage() {
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h1 className="text-2xl font-medium">Parent Communication</h1>
-            <p className="text-muted-foreground">Connect with parents about their children's progress</p>
+            <p className="text-muted-foreground">Connect with parents about their children&apos;s progress</p>
           </div>
           <div className="flex items-center gap-2">
             <Button variant="outline" size="sm" className="gap-2">

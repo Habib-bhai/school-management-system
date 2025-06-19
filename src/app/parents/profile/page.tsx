@@ -145,7 +145,7 @@ export default function ParentProfile() {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-bold tracking-tight">Profile</h1>
-          <p className="text-muted-foreground">Manage your profile and children's information</p>
+          <p className="text-muted-foreground">Manage your profile and children&apos;s information</p>
         </div>
         <div className="flex items-center gap-2">
           {isEditing ? (

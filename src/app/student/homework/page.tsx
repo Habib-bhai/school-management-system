@@ -263,7 +263,7 @@ export default function HomeworkPage() {
               })}
               {searchQuery && (
                 <Badge variant="secondary" className="gap-1">
-                  "{searchQuery}"
+                  &quot;{searchQuery}&quot;
                   <Button variant="ghost" size="icon" className="h-3 w-3 p-0 ml-1" onClick={() => setSearchQuery("")}>
                     <X className="h-2 w-2" />
                     <span className="sr-only">Remove search filter</span>

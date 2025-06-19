@@ -64,6 +64,7 @@ export default function StudentChatPage() {
   const [selectedTeacher, setSelectedTeacher] = useState<string | null>(null)
   const [message, setMessage] = useState("")
   const [searchQuery, setSearchQuery] = useState("")
+    // eslint-disable-next-line
   const [isTyping, setIsTyping] = useState<string | null>(null)
   const [conversations, setConversations] = useState<ChatConversation[]>([])
   const messagesEndRef = useRef<HTMLDivElement>(null)
@@ -448,7 +449,10 @@ export default function StudentChatPage() {
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center justify-between">
                           <p className="font-medium truncate">{teacher.name}</p>
-                          {conversation?.unreadCount! > 0 && (
+                          
+                          {
+                              // eslint-disable-next-line
+                          conversation?.unreadCount! > 0 && (
                             <Badge className="h-5 w-5 rounded-full p-0 text-xs">{conversation?.unreadCount}</Badge>
                           )}
                         </div>

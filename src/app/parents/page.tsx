@@ -22,7 +22,7 @@ export default function ParentDashboard() {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-bold tracking-tight">Parent Dashboard</h1>
-          <p className="text-muted-foreground">Welcome back, Sarah! Here's what's happening with your children.</p>
+          <p className="text-muted-foreground">Welcome back, Sarah! Here&apos;s what&apos;s happening with your children.</p>
         </div>
         <div className="flex items-center gap-2">
           <Button variant="outline" size="sm">
@@ -171,7 +171,7 @@ export default function ParentDashboard() {
                 <MessageCircle className="h-5 w-5 text-blue-600 mt-0.5" />
                 <div className="flex-1">
                   <p className="font-medium">Message from Ms. Davis</p>
-                  <p className="text-sm text-muted-foreground">Emma's math assignment feedback is ready</p>
+                  <p className="text-sm text-muted-foreground">Emma&apos;s math assignment feedback is ready</p>
                   <p className="text-xs text-muted-foreground mt-1">4 hours ago</p>
                 </div>
               </div>

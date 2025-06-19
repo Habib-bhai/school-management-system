@@ -2,7 +2,7 @@
 import React from 'react'
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { usePathname, useRouter } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 
 function Header() {
 

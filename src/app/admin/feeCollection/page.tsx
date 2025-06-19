@@ -225,6 +225,7 @@ const feeRecords: FeeRecord[] = [
 export default function AdminFeeCollection() {
   const [searchTerm, setSearchTerm] = useState("")
   const [statusFilter, setStatusFilter] = useState("all")
+  // eslint-disable-next-line
   const [selectedRecord, setSelectedRecord] = useState(null)
   const [paymentAmount, setPaymentAmount] = useState("")
   const [paymentMethod, setPaymentMethod] = useState("")

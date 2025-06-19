@@ -74,7 +74,7 @@ export default function ProfilePage() {
                 </div>
               </div>
               <p className="mt-4 text-center text-sm text-muted-foreground">
-                You've completed 16 out of 20 assignments this semester.
+                You&apos;ve completed 16 out of 20 assignments this semester.
               </p>
             </div>
           </CardContent>
@@ -140,7 +140,7 @@ export default function ProfilePage() {
                 </div>
               </div>
               <p className="mt-4 text-center text-sm text-muted-foreground">
-                You've attended 57 out of 60 school days this semester.
+                You&apos;ve attended 57 out of 60 school days this semester.
               </p>
             </div>
           </CardContent>

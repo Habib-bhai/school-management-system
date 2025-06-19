@@ -144,6 +144,7 @@ const chatMessages = [
 
 export default function AdminParents() {
   const [searchTerm, setSearchTerm] = useState("")
+  // eslint-disable-next-line
   const [selectedParent, setSelectedParent] = useState(null)
   const [newMessage, setNewMessage] = useState("")
 

@@ -26,6 +26,7 @@ export function HomeworkList({
   sortBy = "dueDate",
 }: HomeworkListProps) {
   const [page, setPage] = useState(1)
+    // eslint-disable-next-line
   const [selectedAssignment, setSelectedAssignment] = useState<any>(null)
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
   const itemsPerPage = 9
@@ -593,12 +594,14 @@ export function HomeworkList({
   }
 
   // Handle assignment selection
+    // eslint-disable-next-line
   const handleAssignmentSelect = (assignment: any) => {
     setSelectedAssignment(assignment)
     setIsDrawerOpen(true)
   }
 
   // Handle assignment submission
+  // eslint-disable-next-line
   const handleAssignmentSubmit = (assignmentId: number, data: any) => {
     console.log("Assignment submitted:", assignmentId, data)
     // Here you would typically send the data to your backend

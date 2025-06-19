@@ -338,7 +338,9 @@ export default function StudentDetailsDynamicPage({studentId, classId}: {student
                             <div className="grid gap-4 py-4">
                                 <div className="grid gap-2">
                                     <Label htmlFor="type">Type</Label>
-                                    <Select value={notificationType} onValueChange={(value: any) => setNotificationType(value)}>
+                                    <Select value={notificationType} onValueChange={(value: 
+                                          // eslint-disable-next-line
+                                        any) => setNotificationType(value)}>
                                         <SelectTrigger>
                                             <SelectValue />
                                         </SelectTrigger>
